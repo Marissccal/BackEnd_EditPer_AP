@@ -52,7 +52,7 @@ public class PersonaController {
     
     @GetMapping("/personas/traer/perfil")
     public Persona bucarPersona() {
-        return ipersonaService.findPersona((long)1);
+        return ipersonaService.findPersona((long)4);
     }
     
 }
